@@ -53,7 +53,7 @@ export default function Home() {
             <span className="badge">TypeScript</span>
             <span className="badge">Node.js</span>
           </div>
-          <p className="featured-desc">
+          <div className="featured-desc">
             A real-time financial tracking interface built to with{" "}
             <strong>react</strong>. This project focuses on high-performance
             mobile UI, featuring complex data visualization and simulated
@@ -74,7 +74,7 @@ export default function Home() {
               </li>
               <li>Dark Mode Native: Styled for modern mobile aesthetics</li>
             </ul>
-          </p>
+          </div>
           <button
             className="btn-secondary"
             onClick={() => navigate("/projects")}
