@@ -1,0 +1,24 @@
+[
+    {
+        "_id": "1",
+        "title": "Portfolio Pulse",
+        "slug": "portfolio-pulse",
+        "completion": "2026-01-27",
+        "description": "A high perfomance dashboard built with React Native (Expo) and Typescript, focused on a financial data integrity and mobile first architecture.",
+        "tags": ["HTML, CSS, JavaScript"],
+        "githubUrl": "https://github.com/IfeanyiNjoku27/Portfolio-Pulse.git",
+        "liveUrl": "/Portfolio-Pulse-Demo-Video.mp4",
+        "imageUrl": "/portfolio-pulse.png"
+    },
+    {
+        "_id": "2",
+        "title": "Bicycle Theft Predictor",
+        "slug": "bicycle-theft-predictor",
+        "completion": "2025-12-08",
+        "description": "A Machine Learning application designed to predict the likelihood of a stolen bicycle being recovered by the Toronto Police Service. Using historical data from the Toronto Police Public Safety Data Portal, the system analyzes factors such as bike cost, location type (premises), and occurrence time to classify theft cases. This tool aims to help law enforcement prioritize cases with higher recovery probability and help citizens understand risk factors.",
+        "tags": ["Python, Machine Learning, SMOTE, Flask, *HTML, CSS, JavaScript"],
+        "githubUrl": "https://github.com/IfeanyiNjoku27/BikeTheftPredictor.git",
+        "liveUrl": "/Bike-Theft-Demo.mp4",
+        "imageUrl": "/Bike-Theft.png"
+    }
+]
