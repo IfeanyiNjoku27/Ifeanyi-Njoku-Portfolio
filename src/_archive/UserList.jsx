@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import api from "../services/api";
+import api from "./api";
 
 export default function UserList() {
   const [users, setUsers] = useState([]);
@@ -13,7 +13,7 @@ export default function UserList() {
   const handleDelete = async (id) => {
     if (window.confirm("Delete this user?")) {
       await api.delete(`/users/${id}`);
-      setUsers(users.filter(u => u._id !== id));
+      setUsers(users.filter((u) => u._id !== id));
     }
   };
 
