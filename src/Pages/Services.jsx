@@ -1,15 +1,15 @@
 //imports
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import api from "../services/api";
+import api from "../_archive/api";
 import "./Pages_CSS/Services.css";
-import serviceData from "../components/services.json"
+import serviceData from "../components/services.json";
 import toast from "react-hot-toast";
 
 export default function Services() {
   const navigate = useNavigate();
 
- const services = serviceData;
+  const services = serviceData;
 
   // Helper function to assign icons based on keywords in the title
   const getIconForService = (title) => {

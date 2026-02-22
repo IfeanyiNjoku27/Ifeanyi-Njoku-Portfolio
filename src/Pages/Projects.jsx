@@ -1,15 +1,15 @@
 // src/Pages/Projects.jsx
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import api from "../services/api";
+import api from "../_archive/api";
 import toast from "react-hot-toast";
 import "./Pages_CSS/Projects.css";
-import ProjectData from "../components/projects.json"
+import ProjectData from "../components/projects.json";
 
 export default function Projects() {
   const navigate = useNavigate();
 
- const projects = ProjectData;
+  const projects = ProjectData;
 
   return (
     <div className="project-container">

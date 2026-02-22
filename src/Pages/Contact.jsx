@@ -2,7 +2,6 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "./Pages_CSS/Contact.css"
-import api from "../services/api";
 import toast from "react-hot-toast";
 
 export default function ContactMe() {
@@ -32,12 +31,32 @@ export default function ContactMe() {
     // Loading toast
     const loadingToast = toast.loading("Sending message...");
 
-    //Send post request to backend
+    //replacing with web3forms fetch
     try {
-      await api.post('/contacts', inputs);
-      toast.dismiss(loadingToast); // Remove loading spinner
-      toast.success("Message Sent! I'll get back to you soon.");
-      navigate("/");
+      const response = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        },
+        body: JSON.stringify({
+          access_key: "95a8de7a-4e8c-4cab-90cd-81b75975626a",
+          name: `${inputs.firstname} ${inputs.lastname}`,
+          email: inputs.email,
+          message: inputs.message,
+        }),
+      });
+
+      const result = await response.json();
+
+      if (result.success) {
+        toast.dismiss(loadingToast);
+        toast.success("Message Sent! I'll get back to you soon.")
+        navigate("/");
+      } else {
+        throw new Error("Submission Failed");
+      }
+      
     } catch (error) {
       toast.dismiss(loadingToast);
       console.error("Error sending message: ", error);

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import api from "../services/api";
+import api from "./api";
 import "./Pages_CSS/Contact.css";
 
 export default function Signup() {
