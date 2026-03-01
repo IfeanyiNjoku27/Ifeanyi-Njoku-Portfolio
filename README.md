@@ -6,7 +6,7 @@
 
 This is a full-stack portfolio application designed to showcase my engineering capabilities, projects, and services. Unlike standard static portfolios, this application is powered by a custom **MERN Stack (MongoDB, Express, React, Node.js)** backend, featuring a bespoke Content Management System (CMS) that allows for real-time updates to projects, services, and engineering capabilities.
 
-**Live Demo:** [https://assignment-1-portfolio-site.onrender.com/]
+**Live Demo:** [https://ifeanyicodes.onrender.com/]
 
 ## 🛠 Tech Stack
 
