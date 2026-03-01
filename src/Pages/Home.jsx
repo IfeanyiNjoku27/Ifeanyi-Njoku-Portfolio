@@ -1,7 +1,7 @@
 import { Navigate, useNavigate } from "react-router-dom";
 import AppRoutes from "../AppRoutes";
 import "./Pages_CSS/Home.css";
-import aboutMeImg from "../assets/about_me.jpg";
+import proPic from "../assets/professionalPic.JPEG"
 
 export default function Home() {
   let navigate = useNavigate();
@@ -11,7 +11,7 @@ export default function Home() {
       {/* 1. Hero Section */}
       <section className="hero-section">
         <div className="hero-image-container">
-          <img src={aboutMeImg} alt="Ifeanyi Njoku" className="profile-pic" />
+          <img src={proPic} alt="Ifeanyi Njoku" className="profile-pic" />
         </div>
 
         <div className="hero-content">
