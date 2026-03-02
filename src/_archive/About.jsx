@@ -1,4 +1,4 @@
-import about_me from "../assets/about_me.jpg"
+import aboutMePro from "../assets/aboutMePro.jpg"
 import "./Pages_CSS/About.css"
 
 
@@ -10,7 +10,7 @@ export default function About() {
 
       {/* Profile Image */}
 
-      <img src={about_me} alt="Head and shoulder picture of me" className="selfie"/>
+      <img src={aboutMePro} alt="Head and shoulder picture of me" className="selfie"/>
 
       {/* About me Paragraph */}
       <p>

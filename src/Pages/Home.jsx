@@ -1,7 +1,7 @@
 import { Navigate, useNavigate } from "react-router-dom";
 import AppRoutes from "../AppRoutes";
 import "./Pages_CSS/Home.css";
-import proPic from "../assets/professionalPic.JPEG"
+import proPic from "../assets/aboutMePro.jpg"
 
 export default function Home() {
   let navigate = useNavigate();

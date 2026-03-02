@@ -2,7 +2,6 @@ import { BrowserRouter } from "react-router-dom";
 import AppRoutes from "./AppRoutes";
 import Navbar from "./NavBar";
 import { Toaster } from "react-hot-toast";
-import "./Pages/About"
 import "./App.css";
 
 function App() {
