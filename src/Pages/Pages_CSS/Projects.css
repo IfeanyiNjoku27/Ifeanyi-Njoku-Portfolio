@@ -4,6 +4,7 @@
   max-width: 1200px;
   margin: 0 auto;
   padding: 40px 20px;
+  text-align: center;
   font-family: 'Inter', system-ui, -apple-system, sans-serif;
   color: #333;
 }
@@ -13,7 +14,15 @@
   font-weight: 700;
   margin-bottom: 2rem;
   text-align: center;
-  color: #ffffff; /* White text for contrast against dark background */
+  color: #0c0b0b; /* White text for contrast against dark background */
+}
+
+.project-container p {
+  font-size: 1.1rem;
+  color: #666;
+  max-width: 600px;
+  margin: 0 auto 3rem auto;
+  line-height: 1.6;
 }
 
 /* Grid Layout */

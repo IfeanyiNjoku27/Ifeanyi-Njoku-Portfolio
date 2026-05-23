@@ -1,7 +1,22 @@
 [
     {
-        "_id": "1",
-        "title": "Cross-Platform Mobile Development",
-        "description": "Building high-performance, pixel-perfect mobile applications for iOS and Android using React Native and Expo. Focus on smooth animations, native modules, and responsive UI design."
+        "id": "1",
+        "title": "AI Agent Integration & LLM Orchestration",
+        "description": "Designing and deploying autonomous AI agents using LangChain and LangGraph. Expertise in integrating LLMs into existing full-stack applications for automated data parsing, categorization, and intelligent database querying."
+    },
+    {
+        "id": "2",
+        "title": "Full-Stack System Architecture & API Design",
+        "description": "Architecting decoupled, high-performance web and mobile applications. Proficient in building strict-typed GraphQL APIs, RESTful services, and integrating state management tools with robust backend databases (PostgreSQL, MongoDB)."
+    },
+    {
+        "id": "3",
+        "title": "Event-Driven Data Flows & DevOps Integration",
+        "description": "Engineering asynchronous messaging systems using Kafka and Confluent Cloud. Establishing reliable CI/CD pipelines with Jenkins and Docker to automate testing, ensure code quality via SonarQube, and streamline deployments."
+    },
+    {
+        "id": "4",
+        "title": "Data Engineering & Predictive Modeling",
+        "description": "Developing predictive machine learning algorithms to analyze historical data trends. Experienced in data pipeline construction, feature engineering, and utilizing techniques like SMOTE to balance datasets for highly accurate models."
     }
 ]

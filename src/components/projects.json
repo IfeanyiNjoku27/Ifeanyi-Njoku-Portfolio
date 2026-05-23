@@ -1,24 +1,113 @@
 [
     {
         "_id": "1",
-        "title": "Portfolio Pulse",
-        "slug": "portfolio-pulse",
-        "completion": "2026-01-27",
-        "description": "A high perfomance dashboard built with React Native (Expo) and Typescript, focused on a financial data integrity and mobile first architecture.",
-        "tags": ["React Native and React, TypeScript, Node.js"],
-        "githubUrl": "https://github.com/IfeanyiNjoku27/Portfolio-Pulse.git",
-        "liveUrl": "/Portfolio-Pulse-Demo-Video.mp4",
-        "imageUrl": "/portfolio-pulse.png"
+        "title": "Chopped (AI Recipe Architect)",
+        "slug": "chopped-ai-recipe",
+        "completion": "Ongoing",
+        "description": "An AI-integrated mobile application that leverages GraphQL and Apollo Client to scrape, parse, and manage recipe data directly from YouTube video transcripts. Features complex frontend-mobile state management and optimized backend queries for single-recipe data fetching.",
+        "tags": [
+            "React Native",
+            "GraphQL",
+            "Apollo Client",
+            "AI Integration",
+            "LangGraph"
+        ],
+        "githubUrl": "",
+        "liveUrl": "",
+        "imageUrl": "https://placehold.co/600x400?text=Chopped+Architecture+Project+(In+Progress)"
+        
     },
     {
         "_id": "2",
+        "title": "CivicCase Tracker",
+        "slug": "civiccase-tracker",
+        "completion": "Completed",
+        "description": "An AI-powered municipal issue tracker utilizing a decoupled Next.js and GraphQL architecture. Integrated Gemini 2.5 Flash and LangGraph to deploy an autonomous AI agent capable of auto-categorizing resident complaints and querying live MongoDB data to answer community status questions.",
+        "tags": [
+            "Next.js",
+            "GraphQL",
+            "LangGraph",
+            "Gemini AI",
+            "MongoDB"
+        ],
+        "githubUrl": "https://github.com/IfeanyiNjoku27/CivicCase-Ai-Powered-Local-Issue-Tracker-Project.git",
+        "liveUrl": "https://ai-powered-local-issue-tracker-proj.vercel.app/",
+        "imageUrl": "/images/civicCase_homePage.png",
+        "documentUrl": "/docs/COMP308-CivicCase-Script.pdf",
+        "diagramUrl": "/images/CivicCase-Architecture.png"
+    },
+    {
+        "_id": "3",
+        "title": "Property Management System",
+        "slug": "property-management-system",
+        "completion": "Completed",
+        "description": "A centralized management platform for landlords, tenants, and contractors. Engineered with a Node.js/Express backend and MongoDB. Features role-based Auth0 security, automated SendGrid email triggers for lease expirations, and Socket.io for real-time messaging between stakeholders.",
+        "tags": [
+            "Node.js",
+            "Express",
+            "Auth0",
+            "Socket.io",
+            "MongoDB"
+        ],
+        "githubUrl": "https://github.com/T6-W26-COMP231/Property-Management-System.git",
+        "liveUrl": "https://t6property-management-system.onrender.com/",
+        "imageUrl": "images/property_system_page.png",
+        "documentUrl": "/docs/TAC-Technical-Report.pdf",
+        "diagramUrl": "/images/Property-Management-Architecture.png"
+    },
+    {
+        "_id": "4",
+        "title": "Spare (formerly Portfolio Pulse)",
+        "slug": "spare-finance",
+        "completion": "Completed",
+        "description": "A mobile finance application that connects securely to banking institutions via the Plaid API to track spending and round up spare change. Utilizes a React Native frontend communicating with an Apollo GraphQL server, leveraging Prisma ORM and PostgreSQL for robust, heavily-typed financial data management.",
+        "tags": [
+            "React Native",
+            "Plaid API",
+            "GraphQL",
+            "Prisma ORM",
+            "PostgreSQL"
+        ],
+        "githubUrl": "https://github.com/IfeanyiNjoku27/Portfolio-Pulse.git",
+        "liveUrl": "/videos/Portfolio-Pulse-Demo-Video.mp4",
+        "imageUrl": "/images/portfolio-pulse.png",
+        "documentUrl": "/docs/Spare-Project-Document.pdf",
+        "diagramUrl": "/images/spare_architect_diagram.png"
+    },
+    {
+        "_id": "5",
+        "title": "System Integration & Event Streaming",
+        "slug": "system-integration-kafka",
+        "completion": "Completed",
+        "description": "Engineered event-driven data flows using Kafka and Confluent Cloud to manage messaging between local nodes and cloud environments. Configured complete CI/CD pipelines incorporating Jenkins, Docker, and SonarQube to automate testing and deployment workflows.",
+        "tags": [
+            "Kafka",
+            "Confluent",
+            "Jenkins",
+            "Docker",
+            "CI/CD"
+        ],
+        "githubUrl": "",
+        "liveUrl": "",
+        "imageUrl": "/images/event_driven_data_flow_diagram.png",
+        "documentUrl": "",
+        "diagramUrl": "/images/event_driven_data_flow_diagram.png"
+    },
+    {
+        "_id": "6",
         "title": "Bicycle Theft Predictor",
         "slug": "bicycle-theft-predictor",
         "completion": "2025-12-08",
         "description": "A Machine Learning application designed to predict the likelihood of a stolen bicycle being recovered by the Toronto Police Service. Using historical data from the Toronto Police Public Safety Data Portal, the system analyzes factors such as bike cost, location type (premises), and occurrence time to classify theft cases. This tool aims to help law enforcement prioritize cases with higher recovery probability and help citizens understand risk factors.",
-        "tags": ["Python, Machine Learning, SMOTE, Flask, HTML, CSS, JavaScript"],
+        "tags": [
+            "Python",
+            "Machine Learning",
+            "SMOTE",
+            "Flask",
+            "Data Engineering"
+        ],
         "githubUrl": "https://github.com/IfeanyiNjoku27/BikeTheftPredictor.git",
-        "liveUrl": "/Bike-Theft-Demo.mp4",
-        "imageUrl": "/Bike-Theft.png"
+        "liveUrl": "/videos/Bicycle-Theft-Predictor-Demo.mp4",
+        "imageUrl": "/images/Bike-Theft.png"
     }
 ]

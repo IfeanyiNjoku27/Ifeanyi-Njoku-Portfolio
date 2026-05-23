@@ -13,7 +13,13 @@ export default function Projects() {
 
   return (
     <div className="project-container">
-      <h1>My Projects</h1>
+      <div className="project-header">
+        <h1>My Projects</h1>
+        <p>
+          Showcasing a diverse portfolio of projects that demonstrate my skills in
+          software engineering, system design, technical documentation, and AI integration.
+        </p>
+      </div>
 
       <div className="projects-grid">
         {projects.map((project) => (
@@ -72,6 +78,26 @@ export default function Projects() {
                       className="link-btn"
                     >
                       Live Demo &rarr;
+                    </a>
+                  )}
+                  {project.documentUrl && (
+                    <a
+                      href={project.documentUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="link-btn"
+                    >
+                      View Report &rarr;
+                    </a>
+                  )}
+                  {project.diagramUrl && (
+                    <a
+                      href={project.diagramUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="link-btn"
+                    >
+                      View Diagram &rarr;
                     </a>
                   )}
                 </div>
