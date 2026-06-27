@@ -1,10 +1,10 @@
 [
     {
-        "_id": "netpulse-telemetry-pipeline",
+        "_id": "1",
         "title": "NetPulse Ingestor (Network Telemetry Pipeline)",
         "description": "A high-throughput, event-driven telemetry pipeline designed to ingest and stream real-time device status payloads, minimizing data parsing overhead and isolating network latency bottlenecks via Go consumer services.",
         "completion": "",
-        "imageUrl": "/images/event_driven_data_flow_diagram.png",
+        "imageUrl": "https://placehold.co/600x400?text=Netpulse+Ingestor+Project+(In+Progress)",
         "tags": [
             "Go (Golang)",
             "Python",
@@ -15,14 +15,14 @@
             "AWS S3",
             "PostgreSQL"
         ],
-        "githubUrl": "https://github.com/IfeanyiNjoku27",
+        "githubUrl": "https://github.com/IfeanyiNjoku27/NetPulse-Ingestor.git",
         "liveUrl": "",
         "documentUrl": "/docs/TAC-Technical-Report.pdf",
         "diagramUrl": "/images/event_driven_data_flow_diagram.png"
     },
     {
         "_id": "2",
-        "title": "Chopped (AI Recipe Architect)",
+        "title": "Chopped (AI Recipe Application)",
         "slug": "chopped-ai-recipe",
         "completion": "",
         "description": "An AI-integrated mobile application that leverages GraphQL and Apollo Client to scrape, parse, and manage recipe data directly from YouTube video transcripts. Features complex frontend-mobile state management and optimized backend queries for single-recipe data fetching.",
@@ -33,7 +33,7 @@
             "AI Integration",
             "LangGraph"
         ],
-        "githubUrl": "",
+        "githubUrl": "https://github.com/IfeanyiNjoku27/ChoppedRenewed.git",
         "liveUrl": "",
         "imageUrl": "https://placehold.co/600x400?text=Chopped+Architecture+Project+(In+Progress)"
     },
@@ -69,7 +69,7 @@
             "Socket.io",
             "MongoDB"
         ],
-        "githubUrl": "https://github.com/T6-W26-COMP231/Property-Management-System.git",
+        "githubUrl": "https://github.com/IfeanyiNjoku27/Property-Management-System.git",
         "liveUrl": "https://t6property-management-system.onrender.com/",
         "imageUrl": "images/property_system_page.png",
         "documentUrl": "/docs/TAC-Technical-Report.pdf",
@@ -93,25 +93,6 @@
         "imageUrl": "/images/portfolio-pulse.png",
         "documentUrl": "/docs/Spare-Project-Document.pdf",
         "diagramUrl": "/images/spare_architect_diagram.png"
-    },
-    {
-        "_id": "5",
-        "title": "System Integration & Event Streaming",
-        "slug": "system-integration-kafka",
-        "completion": "Completed",
-        "description": "Engineered event-driven data flows using Kafka and Confluent Cloud to manage messaging between local nodes and cloud environments. Configured complete CI/CD pipelines incorporating Jenkins, Docker, and SonarQube to automate testing and deployment workflows.",
-        "tags": [
-            "Kafka",
-            "Confluent",
-            "Jenkins",
-            "Docker",
-            "CI/CD"
-        ],
-        "githubUrl": "",
-        "liveUrl": "",
-        "imageUrl": "/images/event_driven_data_flow_diagram.png",
-        "documentUrl": "",
-        "diagramUrl": "/images/event_driven_data_flow_diagram.png"
     },
     {
         "_id": "6",
