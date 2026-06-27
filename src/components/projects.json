@@ -1,9 +1,30 @@
 [
     {
-        "_id": "1",
+        "_id": "netpulse-telemetry-pipeline",
+        "title": "NetPulse Ingestor (Network Telemetry Pipeline)",
+        "description": "A high-throughput, event-driven telemetry pipeline designed to ingest and stream real-time device status payloads, minimizing data parsing overhead and isolating network latency bottlenecks via Go consumer services.",
+        "completion": "",
+        "imageUrl": "/images/event_driven_data_flow_diagram.png",
+        "tags": [
+            "Go (Golang)",
+            "Python",
+            "Kafka",
+            "TypeScript",
+            "GraphQL",
+            "Docker",
+            "AWS S3",
+            "PostgreSQL"
+        ],
+        "githubUrl": "https://github.com/IfeanyiNjoku27",
+        "liveUrl": "",
+        "documentUrl": "/docs/TAC-Technical-Report.pdf",
+        "diagramUrl": "/images/event_driven_data_flow_diagram.png"
+    },
+    {
+        "_id": "2",
         "title": "Chopped (AI Recipe Architect)",
         "slug": "chopped-ai-recipe",
-        "completion": "Ongoing",
+        "completion": "",
         "description": "An AI-integrated mobile application that leverages GraphQL and Apollo Client to scrape, parse, and manage recipe data directly from YouTube video transcripts. Features complex frontend-mobile state management and optimized backend queries for single-recipe data fetching.",
         "tags": [
             "React Native",
@@ -15,13 +36,12 @@
         "githubUrl": "",
         "liveUrl": "",
         "imageUrl": "https://placehold.co/600x400?text=Chopped+Architecture+Project+(In+Progress)"
-        
     },
     {
-        "_id": "2",
+        "_id": "3",
         "title": "CivicCase Tracker",
         "slug": "civiccase-tracker",
-        "completion": "Completed",
+        "completion": "2026-04-23",
         "description": "An AI-powered municipal issue tracker utilizing a decoupled Next.js and GraphQL architecture. Integrated Gemini 2.5 Flash and LangGraph to deploy an autonomous AI agent capable of auto-categorizing resident complaints and querying live MongoDB data to answer community status questions.",
         "tags": [
             "Next.js",
@@ -40,7 +60,7 @@
         "_id": "3",
         "title": "Property Management System",
         "slug": "property-management-system",
-        "completion": "Completed",
+        "completion": "2025-04-16",
         "description": "A centralized management platform for landlords, tenants, and contractors. Engineered with a Node.js/Express backend and MongoDB. Features role-based Auth0 security, automated SendGrid email triggers for lease expirations, and Socket.io for real-time messaging between stakeholders.",
         "tags": [
             "Node.js",
@@ -59,7 +79,7 @@
         "_id": "4",
         "title": "Spare (formerly Portfolio Pulse)",
         "slug": "spare-finance",
-        "completion": "Completed",
+        "completion": "",
         "description": "A mobile finance application that connects securely to banking institutions via the Plaid API to track spending and round up spare change. Utilizes a React Native frontend communicating with an Apollo GraphQL server, leveraging Prisma ORM and PostgreSQL for robust, heavily-typed financial data management.",
         "tags": [
             "React Native",
